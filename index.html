@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Classificador de Herói</title>
+</head>
+<body>
+  <h2>Classificador de Nível de Herói</h2>
+
+  <script>
+    // Variáveis
+    var nome = "Madara";
+    var xp = 7500;
+    var nivel = "";
+
+    // Estruturas de decisão (if/else)
+    if (xp <= 1000) {
+      nivel = "Ferro";
+    } else if (xp <= 2000) {
+      nivel = "Bronze";
+    } else if (xp <= 5000) {
+      nivel = "Prata";
+    } else if (xp <= 7000) {
+      nivel = "Ouro";
+    } else if (xp <= 8000) {
+      nivel = "Platina";
+    } else if (xp <= 9000) {
+      nivel = "Ascendente";
+    } else if (xp <= 10000) {
+      nivel = "Imortal";
+    } else {
+      nivel = "Radiante";
+    }
+
+    // Laço de repetição (exemplo simples para mostrar lógica)
+    for (var i = 1; i <= 3; i++) {
+      console.log("Repetição número " + i);
+    }
+
+    // Saída
+    document.write("O Herói de nome " + nome + " está no nível de " + nivel);
+  </script>
+</body>
+</html>
